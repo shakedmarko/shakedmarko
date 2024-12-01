@@ -1,1 +1,38 @@
-README
+The problem - Traffic Source quality analysis
+Core business is about estimation of Internet traffic from a small sample of users (traffic source). 
+In this assignment, you are asked to evaluate the quality of three potential such sources.
+
+Provided input:
+(1) Learning set contains actual traffic measurements for each site 
+(2) Sources contain traffic measurement from 3 traffic sources. 
+Each table is composed of the following columns: 
+SourceID - Identifies the source which sample the row belongs
+Site - the domain name of the site (for example google.com). 
+(Note: although information can be extracted from the site URL, it is not part of the scope of this exercise) 
+Number of Visits - an Internet traffic metric representing the number of visits to each site for that source.
+
+Tasks
+Explore the learning set and describe it. 
+Provide 1-2 metrics or visualizations in your description. Does it match your intuitions about Internet traffic?
+ (~1 hours)
+
+Explore the given sources and describe them. 
+Do you notice any qualitative differences between the different sources? Provide 2-3 metrics and visualizations to support your claims.
+Why is the scale of each source different? (~2 hours)
+
+Explore: How well can each source be used to estimate the learning set? 
+What are each source’s strengths and weaknesses? 
+Again, provide 2-3 metrics and visualizations to support your claims. (~2 hours)
+
+Can you think of a strategy that employs data from all three sources that will create a better estimator for the learning set? 
+Describe your strategy and demonstrate the improvement it provides. (~2 hours)
+
+Required Output
+- A notebook or script containing your exploratory code that has led you to your findings. 
+Clear comments and headlines are highly encouraged. Visualizations are better than tables where applicable. 
+Note that more is not necessarily better! 
+you may briefly mention forsaken avenues of analysis if you believe those are important, 
+try to focus on a few key metrics and analyses that provide the most for your final reasoning.
+
+- (Nice to have) A short (at most 10 slides) presentation that contains your main findings. 
+Please try to be concise and not present cluttered slides. Ideally this will contain the visualizations that best explain your findings.
