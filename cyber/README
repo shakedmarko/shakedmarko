@@ -1,1 +1,13 @@
-README
+Please perform an analysis on the DNS data (The DNS page on Wikipedia should provide
+enough information to understand the data).
+The schema of the data:
+1. column 1: timestamp
+2. column 2: top level domain
+3. column 3: second level domain
+4. column 4: FQDN
+5. column 5: resolved IP address
+Please provide your code analyzing the data in Python script or Jupyter Notebooks. It would
+help to understand your analysis if you also include explanations of your insights or conclusions.
+Please use the plotting modules in Python for visualization in the Jupyter Notebooks if possible
+(instead of using other tools that would require installing additional software/tools to check the
+results).
