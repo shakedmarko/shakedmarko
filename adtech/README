@@ -1,1 +1,27 @@
+You are employed at a company, Ad Corp, that provides a platform for managing advertising campaigns on behalf of various businesses.
+AdCORP offers three distinct product tiers: P1, P2, and P3, with P3 being the highest-tier offering, followed by P2, and then P1. 
+We ve gathered data from customers who were in either the P1 or P2 tiers and examined whether they upgraded to the P3 tier or not. 
+Our goal is to assist the Sales department in determining which customers should be their primary focus for upgrading to the P3 tier.
 
+Your assignment involves the following objectives:
+1. Conduct an analysis of customer data pertaining to P1 and P2 tiers.
+2. Develop a baseline model capable of predicting which customers are inclined to
+upgrade their subscription to the more advanced P3 tier. Discuss which metric(s)
+is/are relevant for this case.
+3. Suggest action items based on your findings. E.g., for your team or for business
+stakeholders.
+4. Prepare a summary presentation showing your development to the FrogAd staff.
+You will present this presentation to JFrog&#39;s team and answer questions
+regarding it. Please submit this presnetation file as well as the Jupyter notebook
+ipynb file you used.
+
+The data available contains:
+- The impressions from 4 different social media in the past 3 months
+- The client&#39;s industry type
+- The number of support cases were opened with us by the client
+- The number of technical sessions were held by us with the client
+- The number of platform users we had in the past 3 months
+- The number of people working for the customer whose contact information we have
+- The client&#39;s location
+- The client&#39;s subscription tier
+- The client&#39;s number of employees
