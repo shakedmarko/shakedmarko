@@ -1,1 +1,12 @@
-README
+Background
+Supply Path Optimization (SPO) refers to the traffic management process that optimizes interactions
+between supply and demand.
+The Demand Partners (Buyers) set a QPS (queries per second) limit, which defines the number of requests Rise can route through the SPO
+pipeline. 
+This QPS constraint ensures that the SSP (Rise) does not overload the demand servers and directs only relevant traffic through the system.
+Recently, our demand partners have raised concerns about a decline in performance attributed to "low-value" traffic. 
+"Low-value" traffic is characterized by a low probability of receiving any response from buyers.
+For example, when SPO sends a request to Buyer B, this buyer may not respond to the auction opportunity. 
+While there may be various reasons for a lack of response, 
+in this context, we define a "no-bid" as an indication that the buyer is uninterested.
+you are tasked with evaluating these assumptions and offer an ML solution that meets the business needs.
