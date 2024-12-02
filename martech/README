@@ -1,1 +1,26 @@
-README
+The goal of this assignment is to help the company increase its conversion rate via personalization of
+its email marketing campaign.
+
+Some background:
+• Most users go through our unique quiz experience, in which we ask them a couple of
+questions about themselves to help us with matching them the right products. In this
+specific case, this is a quiz for hair and skin products.
+• If a user completed the quiz but did not purchase, they receive an email after a couple of
+hours to try and convert them (i.e., persuade them to purchase that product).
+• For the J34 product, the marketing team decided to run an A/B test with three variants: the
+original (old) email, and two variants of that email that include changes to the wording,
+layout, typography, and general appearance of the email. The assignment was completely
+random.
+
+Our goal is to use the data collected during the experiment to personalize the email campaign
+assignment for future users. We'd like to build a model that decides which email variant to send to a
+user given the user's features available after the quiz completion, with the goal of maximizing the
+conversion rate. Note that our model we’ll be used right after a user completes the quiz (before the
+email is sent, and therefore we do not have purchase information on the prediction time).
+Please also provide with a method to evaluate the model’s performance on a cohort of new users
+(such as a test set).
+
+You can use any known package/library/algorithm/method to solve this. It is preferred that you will
+use an IPython Jupyter notebook, but any other format or language is acceptable.
+Attached is the dataset with the features, email campaign assignment, an indicator of whether the
+user purchased, along with some post purchase additional information.
